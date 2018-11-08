@@ -1,0 +1,6 @@
+# 禁止换行符自动转换
+git config --global core.autocrlf false
+# 设置Git仓库username
+git config --global user.name "your name"
+# 设置Git仓库email
+git config --global user.email "your email"
