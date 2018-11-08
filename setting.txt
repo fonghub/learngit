@@ -28,3 +28,8 @@ git config --global user.email "your email"
 3.回退版本库
 回退到上一个版本库：git reset HEAD^
 回退到制定comm_id版本库：git reset HEAD comm_id
+
+# 删除文件
+1.本地删除：rm -rf filename
+2.版本库删除：git rm filename
+3.生产提交comm_id：git commit -m "descript"
