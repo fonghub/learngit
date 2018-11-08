@@ -33,3 +33,6 @@ git config --global user.email "your email"
 1.本地删除：rm -rf filename
 2.版本库删除：git rm filename
 3.生产提交comm_id：git commit -m "descript"
+
+# 生产SSH Key
+ssh-keygen -t rsa -C "yourEmail@example.com"
