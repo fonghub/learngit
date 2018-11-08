@@ -17,3 +17,12 @@ git config --global user.email "your email"
 # 查看提交历史
 1.git log  查看有效的提交历史
 2.git reflog  查看所有的提交历史
+
+# 撤销/回退
+1.撤销工作区修改
+git checkout -- filename
+2.撤销暂存区修改（到工作区）
+git reset HEAD filename
+3.回退版本库
+回退到上一个版本库：git reset HEAD^
+回退到制定comm_id版本库：git reset HEAD comm_id
