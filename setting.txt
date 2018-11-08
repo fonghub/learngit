@@ -20,9 +20,11 @@ git config --global user.email "your email"
 
 # 撤销/回退
 1.撤销工作区修改
-git checkout -- filename
+使用版本库文件覆盖工作区文件：git checkout -- filename
+
 2.撤销暂存区修改（到工作区）
-git reset HEAD filename
+使用版本库五年级覆盖暂存区文件：git reset HEAD filename
+
 3.回退版本库
 回退到上一个版本库：git reset HEAD^
 回退到制定comm_id版本库：git reset HEAD comm_id
