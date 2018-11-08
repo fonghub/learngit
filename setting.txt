@@ -45,3 +45,10 @@ ssh-keygen -t rsa -C "yourEmail@example.com"
 4.删除分支:git branch -d branchName
 5.查看分支:git branch
 6.创建并切换分支:git checkout -b branchName
+
+# 解决bug
+1.保存开发“现场”：git stash
+2.查看开发现场：git stash list
+3.恢复开发现场：git stash apply stash@{stashIndex}
+4.删除开发现场：git stash drop 
+5.恢复并删除开发现场：git stash pop
