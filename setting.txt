@@ -4,3 +4,16 @@ git config --global core.autocrlf false
 git config --global user.name "your name"
 # 设置Git仓库email
 git config --global user.email "your email"
+
+# 三个概念
+1.工作区：
+2.暂存区：
+3.版本库：
+
+三个区的修改对比：
+工作区  vs  版本库  =  git diff 被修改文件名
+暂存区  vs  版本库  =  git diff --cached  被修改文件名
+
+# 查看提交历史
+1.git log  查看有效的提交历史
+2.git reflog  查看所有的提交历史
