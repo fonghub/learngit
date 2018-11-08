@@ -36,3 +36,12 @@ git config --global user.email "your email"
 
 # 生产SSH Key
 ssh-keygen -t rsa -C "yourEmail@example.com"
+
+# 分支管理
+
+1.创建分支:git branch branchName
+2.切换分支:git checkout branchName
+3.合并分支:git merge branchName
+4.删除分支:git branch -d branchName
+5.查看分支:git branch
+6.创建并切换分支:git checkout -b branchName
