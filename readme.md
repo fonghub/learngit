@@ -87,7 +87,9 @@ git difftool --tool=vimdiff3
 `git reset --hard HEAD^`
 * 修改最近一次提交的文件和提说明。此命令执行后暂存区的文件将会被提交，并可以重新填写说明，生成一个新的commit来覆盖最近一次commit
 `git commit --amend`
-
+* **补充——回退到指定版本**
+	* `git reset --soft 版本号` 回退到暂存区，重新commit
+	* `git reset --mixed 版本号` 回退到工作区，重新add，commit
 #### 七、提交记录查看
 * 查看命令历史记录
 `git reflog `
